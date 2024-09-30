@@ -1,0 +1,20 @@
+{
+  "name": "alx-frontend-javascript",
+  "version": "1.0.0",
+  "description": "A project using Jest, Babel, and ESLint",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "babel-jest": "^27.0.0",
+    "eslint": "^9.11.1",
+    "jest": "^27.0.0"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
