@@ -1,5 +1,5 @@
 export function taskFirst() {
-    const task = 'I prefer const when I can.';  // Use const because task is not reassigned
+    const task = 'I prefer const when I can.';
     return task;
   }
   
@@ -8,9 +8,8 @@ export function taskFirst() {
   }
   
   export function taskNext() {
-    let combination = 'But sometimes let';  // Use let because combination will be reassigned
-    combination += getLast();  // Reassigning the value of combination
+    let combination = 'But sometimes let';
+    combination += getLast();
   
     return combination;
   }
-  
